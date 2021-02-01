@@ -71,17 +71,6 @@ if(isset($_POST['vacant'])){
 					size:</label>
 					<input type="text" class="form-control" id="contacts" placeholder="enter your contact details" required name="size">
 			</div>
-			<div>
-				<p>	please select house features:</p>
-					 
-					<input type="checkbox" name="weather[]" value="rain">rain<br>
-					<input type="checkbox" name="weather[]" value="sunshine">sunny<br>
-					<input type="checkbox" name="weather[]" value="clouds">cloudy<br>	
-					<input type="checkbox" name="weather[]" value="hails">hails<br>
-					<input type="checkbox" name="weather[]" value="snow">snowy<br>
-					<input type="checkbox" name="weather[]" value="wind">windy<br>
-					<input type="submit" name="submit" value="submit">
-			</div>
 			</div>
 			<input type="submit" name="button" class="btn btn-primary btn-block"  value="submit">
 			</div>
